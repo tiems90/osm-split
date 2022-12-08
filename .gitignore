@@ -1,0 +1,4 @@
+data/north-america-latest.osm.pbf
+output/*
+.*/*
+*.ipynb
