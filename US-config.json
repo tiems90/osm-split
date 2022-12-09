@@ -1,205 +1,205 @@
 {
-    "directory": "",
-    "extracts": [
-        {
-            "output": "output/582169416674836479.osm.pbf",
-            "description": "Area of the US including H3 index 582169416674836479 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582169416674836479.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581685631558615039.osm.pbf",
-            "description": "Area of the US including H3 index 581685631558615039 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581685631558615039.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/582178212767858687.osm.pbf",
-            "description": "Area of the US including H3 index 582178212767858687 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582178212767858687.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581681233512103935.osm.pbf",
-            "description": "Area of the US including H3 index 581681233512103935 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581681233512103935.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/582239785419014143.osm.pbf",
-            "description": "Area of the US including H3 index 582239785419014143 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582239785419014143.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581298603465637887.osm.pbf",
-            "description": "Area of the US including H3 index 581298603465637887 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581298603465637887.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581659243279548415.osm.pbf",
-            "description": "Area of the US including H3 index 581659243279548415 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581659243279548415.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581707621791170559.osm.pbf",
-            "description": "Area of the US including H3 index 581707621791170559 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581707621791170559.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581725213977214975.osm.pbf",
-            "description": "Area of the US including H3 index 581725213977214975 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581725213977214975.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/582173814721347583.osm.pbf",
-            "description": "Area of the US including H3 index 582173814721347583 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582173814721347583.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581698825698148351.osm.pbf",
-            "description": "Area of the US including H3 index 581698825698148351 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581698825698148351.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581663641326059519.osm.pbf",
-            "description": "Area of the US including H3 index 581663641326059519 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581663641326059519.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/582244183465525247.osm.pbf",
-            "description": "Area of the US including H3 index 582244183465525247 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582244183465525247.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581641651093503999.osm.pbf",
-            "description": "Area of the US including H3 index 581641651093503999 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581641651093503999.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581646049140015103.osm.pbf",
-            "description": "Area of the US including H3 index 581646049140015103 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581646049140015103.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581720815930703871.osm.pbf",
-            "description": "Area of the US including H3 index 581720815930703871 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581720815930703871.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581654845233037311.osm.pbf",
-            "description": "Area of the US including H3 index 581654845233037311 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581654845233037311.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581690029605126143.osm.pbf",
-            "description": "Area of the US including H3 index 581690029605126143 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581690029605126143.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581716417884192767.osm.pbf",
-            "description": "Area of the US including H3 index 581716417884192767 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581716417884192767.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581672437419081727.osm.pbf",
-            "description": "Area of the US including H3 index 581672437419081727 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581672437419081727.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581650447186526207.osm.pbf",
-            "description": "Area of the US including H3 index 581650447186526207 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581650447186526207.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581734010070237183.osm.pbf",
-            "description": "Area of the US including H3 index 581734010070237183 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581734010070237183.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/582248581512036351.osm.pbf",
-            "description": "Area of the US including H3 index 582248581512036351 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582248581512036351.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/581637253046992895.osm.pbf",
-            "description": "Area of the US including H3 index 581637253046992895 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/581637253046992895.geojson",
-                "file_type": "geojson"
-            }
-        },
-        {
-            "output": "output/582165018628325375.osm.pbf",
-            "description": "Area of the US including H3 index 582165018628325375 and the rings directly around it.",
-            "polygon": {
-                "file_name": "data/geojsons/582165018628325375.geojson",
-                "file_type": "geojson"
-            }
-        }
-    ]
+  "directory": "",
+  "extracts": [
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582169416674836479.osm.pbf",
+      "description": "Area of the US including H3 index 582169416674836479 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582169416674836479.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581685631558615039.osm.pbf",
+      "description": "Area of the US including H3 index 581685631558615039 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581685631558615039.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582178212767858687.osm.pbf",
+      "description": "Area of the US including H3 index 582178212767858687 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582178212767858687.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581681233512103935.osm.pbf",
+      "description": "Area of the US including H3 index 581681233512103935 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581681233512103935.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582239785419014143.osm.pbf",
+      "description": "Area of the US including H3 index 582239785419014143 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582239785419014143.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581298603465637887.osm.pbf",
+      "description": "Area of the US including H3 index 581298603465637887 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581298603465637887.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581659243279548415.osm.pbf",
+      "description": "Area of the US including H3 index 581659243279548415 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581659243279548415.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581707621791170559.osm.pbf",
+      "description": "Area of the US including H3 index 581707621791170559 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581707621791170559.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581725213977214975.osm.pbf",
+      "description": "Area of the US including H3 index 581725213977214975 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581725213977214975.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582173814721347583.osm.pbf",
+      "description": "Area of the US including H3 index 582173814721347583 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582173814721347583.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581698825698148351.osm.pbf",
+      "description": "Area of the US including H3 index 581698825698148351 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581698825698148351.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581663641326059519.osm.pbf",
+      "description": "Area of the US including H3 index 581663641326059519 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581663641326059519.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582244183465525247.osm.pbf",
+      "description": "Area of the US including H3 index 582244183465525247 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582244183465525247.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581641651093503999.osm.pbf",
+      "description": "Area of the US including H3 index 581641651093503999 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581641651093503999.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581646049140015103.osm.pbf",
+      "description": "Area of the US including H3 index 581646049140015103 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581646049140015103.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581720815930703871.osm.pbf",
+      "description": "Area of the US including H3 index 581720815930703871 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581720815930703871.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581654845233037311.osm.pbf",
+      "description": "Area of the US including H3 index 581654845233037311 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581654845233037311.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581690029605126143.osm.pbf",
+      "description": "Area of the US including H3 index 581690029605126143 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581690029605126143.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581716417884192767.osm.pbf",
+      "description": "Area of the US including H3 index 581716417884192767 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581716417884192767.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581672437419081727.osm.pbf",
+      "description": "Area of the US including H3 index 581672437419081727 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581672437419081727.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581650447186526207.osm.pbf",
+      "description": "Area of the US including H3 index 581650447186526207 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581650447186526207.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581734010070237183.osm.pbf",
+      "description": "Area of the US including H3 index 581734010070237183 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581734010070237183.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582248581512036351.osm.pbf",
+      "description": "Area of the US including H3 index 582248581512036351 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582248581512036351.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/581637253046992895.osm.pbf",
+      "description": "Area of the US including H3 index 581637253046992895 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/581637253046992895.geojson",
+        "file_type": "geojson"
+      }
+    },
+    {
+      "output": "/dbfs/datasets/graphhopper/osm/na-split/582165018628325375.osm.pbf",
+      "description": "Area of the US including H3 index 582165018628325375 and the rings directly around it.",
+      "polygon": {
+        "file_name": "/Workspace/Repos/timo.roest@databricks.com/osm-split/data/geojsons/582165018628325375.geojson",
+        "file_type": "geojson"
+      }
+    }
+  ]
 }
