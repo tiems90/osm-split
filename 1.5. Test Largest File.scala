@@ -151,4 +151,8 @@ display(isochrones)
 
 // COMMAND ----------
 
+// MAGIC %fs ls /datasets/graphhopper/osm/na-split/graphHopperData/
+
+// COMMAND ----------
+
 
