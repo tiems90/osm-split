@@ -106,75 +106,74 @@ val source = spark
   .read
   .table("sample_cities")
 
-val num_partitions = source
-    .select("h3").distinct().count().toInt
+val h3_indices = source
+    .select("h3")
+    .distinct()
+    .collect
+    .map(x => x(0).toString)
 
 // COMMAND ----------
 
-val isochrones = source
-  .repartition(num_partitions,$"h3")
-  .mapPartitions( partition => {
+h3_indices.foreach { h3 =>
+    source
+        .filter(s"h3 == $h3")
+        .drop("geometry")
+        .createOrReplaceTempView(s"table_$h3")
+}
+case class Record(id: String, latitude: Double, longitude: Double, h3: Long)
+
+// COMMAND ----------
+
+// MAGIC %sql
+// MAGIC select * from table_582178212767858687
+
+// COMMAND ----------
+
+h3_indices
+//.filter(_.startsWith("582178212767858687"))
+.foreach { h3 =>
+    val df = spark.read.table(s"table_$h3")
+
+    df.mapPartitions( partition => {
+    val osmPath = s"/dbfs/datasets/graphhopper/osm/na-split/graphHopperData/$h3/"
+    val (hopper, encodingManager, accessEnc, speedEnc, weighting) = create_hopper_instance(osmPath)
     partition.map( row => {
       val id  = row.get(0).asInstanceOf[String]
       val lat = row.get(1).asInstanceOf[Double]
       val lon = row.get(2).asInstanceOf[Double]
-      (id)
+      val snap = hopper.getLocationIndex().findClosest(lat, lon, new DefaultSnapFilter(weighting, encodingManager.getBooleanEncodedValue(Subnetwork.key("car"))))
+      val queryGraph = QueryGraph.create(hopper.getBaseGraph(), snap)
+      val tree = new ShortestPathTree(queryGraph, weighting, false, TraversalMode.NODE_BASED)
+      tree.setTimeLimit(timeLimit)
+      
+      val triangulator = new JTSTriangulator(hopper.getRouterConfig())
+      val result = triangulator.triangulate(snap, queryGraph, tree, fz, toleranceInMeter)
+      val contourBuilder = new ContourBuilder(result.triangulation)
+      
+      var isochrones = ListBuffer[(Int, String)]()
+      
+      for (limit <- buckets) {    
+        val isochrone = contourBuilder.computeIsoline(limit, result.seedEdges)
+        val simple_isochrone = simplify(isochrone, toleranceInMeter)
+        isochrones += ((limit / oneMinute, simple_isochrone.toString))
+      }
+      (id, isochrones)
     })
   })
+  .select(
+    col("_1").alias("location_id"),
+    explode(col("_2").alias("col")))
+  .select("location_id", "col.*")
+  .select($"location_id", col("_1").alias("time_min"), col("_2").alias("geom"))
+  .createOrReplaceTempView(s"isochrone_$h3")
+}
 
 // COMMAND ----------
 
-// MAGIC %md ## WIP
-
-// COMMAND ----------
-
-
-
-// COMMAND ----------
-
-isochrones
-.write
-.format("delta")
-.mode("overwrite")
-.option("overwriteSchema", "true")
-.saveAsTable("timo.isochrones.full_us")
-
-// COMMAND ----------
-
-val isochrones = source
-  .repartition(num_partitions,$"h3")
-
-isochrones.rdd.getNumPartitions
-
-// COMMAND ----------
-
-case class Record(id: String, latitude: Double, longitude: Double, h3: Long)
-
-val x = source.mapPartitions( partition => {
-    val first = partition
-      .toSeq(0)
-    val firstRecord = Record(first.get(0).asInstanceOf[String], first.get(1).asInstanceOf[Double], first.get(2).asInstanceOf[Double], first.get(4).asInstanceOf[Long])
-    val h3 = firstRecord.h3
-    
-    val osmPath = s"/dbfs/datasets/graphhopper/osm/na-split/graphHopperData/$h3/"
-    val (hopper, encodingManager, accessEnc, speedEnc, weighting) = create_hopper_instance(osmPath)
-    
-    partition.map( row => {
-      val record = Record(row.get(0).asInstanceOf[String], row.get(1).asInstanceOf[Double], row.get(2).asInstanceOf[Double], first.get(4).asInstanceOf[Long])
-
-      (record.id, firstRecord.h3)
-    })
-  })
-
-display(x)
-
-// COMMAND ----------
-
-x.count()
-
-// COMMAND ----------
-
-source.count()
+// MAGIC %sql
+// MAGIC select * from isochrone_582178212767858687 
+// MAGIC UNION 
+// MAGIC SELECT * from isochrone_581707621791170559 
 
 // COMMAND ----------
 
